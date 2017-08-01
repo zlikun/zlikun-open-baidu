@@ -20,8 +20,6 @@ public class TokenTest {
 
     MediaType contentType = MediaType.parse("application/x-www-form-urlencoded");
 
-
-
     @Test
     public void token() throws IOException {
 

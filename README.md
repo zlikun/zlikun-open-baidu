@@ -5,9 +5,6 @@
 #### 官网
 - <http://ai.baidu.com/>
 
-#### 文档
-- [鉴权认证机制](https://ai.baidu.com/docs#/Auth/top)
-
 #### API
 - [鉴权认证机制](https://ai.baidu.com/docs#/Auth/top)
 ```
@@ -24,4 +21,13 @@ Vary: Accept-Encoding
 Transfer-Encoding: chunked
 
 {"access_token":"24.a612ec5834e873546206fee31042556c.2592000.1504187069.282335-9958224","session_key":"9mzdWuq8kCyH81Py90+Z2ApGk4JSKjjyL7657zJAf17gAeJpfK0IXbLF+L55FkYRmjl30DU8lOSzfHeXsSQBjfF9ZHON","scope":"public vis-faceverify_faceverify vis-ocr_ocr vis-faceattribute_faceattribute vis-antiporn_antiporn_v2 brain_ocr_scope vis-faceverify_faceverify_v2 brain_gif_antiporn brain_ocr_general brain_ocr_general_basic brain_ocr_general_enhanced brain_ocr_webimage brain_all_scope solution_face brain_ocr_idcard brain_ocr_driving_license brain_ocr_vehicle_license brain_antiporn vis-ocr_plate_number brain_politician brain_imgquality_general brain_kg_pie_task brain_solution brain_ocr_plate_number brain_ocr_accurate brain_ocr_accurate_basic wise_adapt lebo_resource_base lightservice_public hetu_basic lightcms_map_poi kaidian_kaidian wangrantest_test wangrantest_test1 bnstest_test1 bnstest_test2 vis-classify_flower","refresh_token":"25.b5f470432db966f9df808c0cb5b42dc8.315360000.1816955069.282335-9958224","session_secret":"76e70896e16df6cf50fbc67aaeee06b8","expires_in":2592000}
+
+# 正确响应
+# access_token 要获取的Access Token
+# expires_in Access Token的有效期(秒为单位，一般为1个月)
+
+# 错误响应
+# error 错误码；关于错误码的详细信息请参考下方鉴权认证错误码
+# error_description 错误描述信息，帮助理解和解决发生的错误
 ```
+- [文字识别](https://ai.baidu.com/docs#/OCR-API/top)
