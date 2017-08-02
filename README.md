@@ -31,3 +31,42 @@ Transfer-Encoding: chunked
 # error_description 错误描述信息，帮助理解和解决发生的错误
 ```
 - [文字识别](https://ai.baidu.com/docs#/OCR-API/top)
+> log_id 唯一的log id，用于问题定位  
+> words_result_num 识别结果数，表示words_result的元素个数  
+> words_result 识别结果数组
+
+```
+{
+    "log_id": 2397392541,
+    "words_result_num": 14,
+    "words_result": [
+        {
+            "words": "第三届"
+        },
+        {
+            "words": "秋季运动会盛大召开"
+        },
+        {
+            "words": "我运动"
+        },
+        {
+            "words": "我健康"
+        },
+        {
+            "words": "更映、更高、更强"
+        },
+        {
+            "words": "参与竞争就是成功"
+        },
+        {
+            "words": "突破自己就是胜利"
+        },
+        ... ...
+        {
+            "words": "24171327(648000"
+        }
+    ]
+}
+```
+
+##### [人脸识别](http://ai.baidu.com/docs?castk=LTE%3D#/Face-API/top)
